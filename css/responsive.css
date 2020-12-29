@@ -1,0 +1,535 @@
+
+/********************************************************/
+	/*// Small devices (landscape phones, 576px and up)
+	@media (min-width: 576px) { ... }
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) { ... }
+
+	// Large devices (desktops, 992px and up)
+	@media (min-width: 992px) { ... }*/
+/********************************************************/
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.header-section{
+		width: 100%;
+		padding: 0px 0px 242px;
+		background: url("../images/banner-bg.png") center top no-repeat;
+		background-size: cover;
+	}
+	.header-section .main-menu .bg-light .navbar-brand img{
+		mix-blend-mode: darken!important;
+		width: 50%;
+	}
+	.banner-section{
+   	 	width: 100%;
+   	 	margin: 0px 0px 20px;
+	}
+	.banner-section .banner-text{
+		width: 100%;
+		padding: 100px 0px 0px;
+	}
+	.banner-section .banner-text h3 {
+ 	   	font-size: 35px;
+   	 	font-weight: 800;
+  	  	color: #32325d;
+   	 	padding: 0px 0px 20px;
+	}
+	.banner-section .banner-text p {
+  	  	font-size: 17px;
+  	  	line-height: 28px;
+  	  	color: #000;
+   	 	padding: 0px 0px 40px;
+	}
+	.about-us{
+		width: 100%;
+		padding: 90px 0px 40px;
+	}
+	.about-us .about-text{
+		width: 100%;
+		padding: 20px 0px 0px;
+	}
+	.about-us .about-text h3 {
+	    padding: 0px 0px 10px 0px;
+	    font-size: 22px;
+	    line-height: 24px;
+	    font-weight: 900;
+	    width: 275px;
+	}
+	.about-us .about-text p {
+	    font-size: 11px;
+	    line-height: 20px;
+	    color: #525f7f;
+	    width: 275px;
+	    padding: 0px 0px 0px;
+	}
+	.about-us .visible {
+	    width: 270px;
+	    background: #fff;
+	    color: #000;
+	    margin: 185px 0px 0px;
+	    padding: 50px 0px 30px 20px;
+	    transition: box-shadow .3s;
+	    border: 1px solid #e8e7fc;
+	}
+	.about-us .visible img {
+	    width: 50%;
+	    padding: 0px 0px 20px;
+	    text-align: center;
+	}
+	.about-us .visible h4 {
+	    padding: 10px 0px;
+	    font-size: 26px;
+	    font-weight: 900;
+	}
+	.about-us .visible p {
+	    font-size: 10px;
+	    line-height: 20px;
+	    color: #525f7f;
+	    padding: 0px 0px 0px;
+	    margin: 0px;
+	}
+	.feature-section {
+	    width: 100%;
+	    padding: 200px 0px;
+	    margin: 0px 0px 540px;
+	}
+	.feature-section .box-3 .visible {
+	    width: 270px;
+	    background: #fff;
+	    color: #000;
+	    margin: 60px 0px 0px;
+	    padding: 50px 0px 30px 20px;
+	    transition: box-shadow .3s;
+	    border: 1px solid #e8e7fc;
+	}
+	.feature-section .box-4 .visible {
+	    width: 270px;
+	    background: #fff;
+	    color: #000;
+	    margin: 450px 0px 0px;
+	    padding: 50px 0px 30px 20px;
+	    transition: box-shadow .3s;
+	    border: 1px solid #e8e7fc;
+	}
+	.feature-section .visible img{
+		width: 50%;
+	    padding: 0px 0px 20px;
+	    text-align: center;
+	}
+	.feature-section .visible h4 {
+	    padding: 10px 0px;
+	    font-size: 26px;
+	    font-weight: 900;
+	}
+	.feature-section .visible p {
+	    font-size: 10px;
+	    line-height: 20px;
+	    color: #525f7f;
+	    padding: 0px 0px 0px;
+	    margin: 0px;
+	}
+	.services{
+		width: 100%;
+		padding: 80px 0px;
+		margin: 230px 0px 0px;
+		background: url("../images/service-bg.png") center bottom no-repeat;
+		background-size: cover;
+	}
+	.services .text-center h3 {
+	    padding: 10px 0px 20px;
+	    width: 300px;
+	    font-size: 18px;
+	    line-height: 20px;
+	    font-weight: 900;
+	    animation: abcd 18s infinite;
+	}
+	@keyframes abcd{
+		0%{margin-left: 50px}
+		10%{margin-left: 00px}
+		20%{margin-right: 50px}
+		30%{margin-right: 00px}
+		40%{margin-left: 50px}
+		50%{margin-left: 00px}
+		60%{margin-right: 50px}
+		70%{margin-right: 00px}
+		80%{margin-left: 50px}
+		90%{margin-left: 00px}
+		100%{margin-right: 50px}
+	}
+	.services .text-center p {
+	    font-size: 13px;
+	    line-height: 25px;
+	    text-align: center;
+	    color: #525f7f;
+	    padding: 0px 0px 0px;
+	}
+	.services .box{
+		cursor: pointer;
+		/*border: 1px solid #e8e7fc;*/
+		margin: 0px 0px;
+	}
+	.what-we-do{
+		width: 100%;
+		padding: 0px 0px;
+	}
+	.what-we-do .safety{
+		padding: 0px 0px 20px 0px;
+
+	}
+	.what-we-do .safety-info h3 {
+	    font-size: 32px;
+	    line-height: 38px;
+	    text-align: center;
+	    font-weight: 800;
+	    color: #32325d;
+	    padding: 0px 0px 20px;
+	}
+	.what-we-do .safety-info p {
+	    font-size: 16px;
+	    line-height: 26px;
+	    text-align: center;
+	    color: #525f7f;
+	    padding: 0px 0px 20px;
+	    margin: 0px;
+	}
+	.what-we-do .safety-info .drive-ride{
+		padding: 0px 0px 0px 20px;
+	}
+	.what-we-do .safety-info .drive-ride ul .text{
+		margin: 0px 120px 0px 0px;
+	}
+	.what-we-do .safety-info .drive-ride ul span h5 {
+	    font-size: 32px;
+	    line-height: 42px;
+	    padding: 0px 0px 10px 0px;
+	}
+	.what-we-do .safety-info .drive-ride ul span p {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.what-we-do .move-info h3 {
+	    font-size: 25px;
+	    line-height: 33px;
+	    text-align: center;
+	    color: #32325d;
+	    padding: 20px 0px 20px;
+	    width: 290px;
+	}
+	.what-we-do .move-info p {
+	    font-size: 20px;
+	    width: 290px;
+	    line-height: 27px;
+	    text-align: center;
+	    color: #525f7f;
+	    padding: 0px 0px 20px;
+	    margin: 0px;
+	}
+	.what-we-do .move {
+	    padding: 80px 0px 0px 0px;
+	}
+	.what-we-do .finances {
+	    /* padding: 80px 0px 20px 0px; */
+	    margin: 0px;
+	}
+	.what-we-do .finances-info {
+	    padding: 40px 0px 0px 0px;
+	}
+	.what-we-do .finances-info h3 {
+	    font-size: 35px;
+	    text-align: center;
+	    font-weight: 800;
+	    color: #32325d;
+	    padding: 0px 0px 20px;
+	    margin: 0px;
+	}
+	.what-we-do .finances-info p {
+	    font-size: 16px;
+	    width: 290px;
+	    text-align: initial;
+	    line-height: 20px;
+	    color: #525f7f;
+	    padding: 0px 0px 60px 40px;
+	    margin: 0px 0px 0px;
+	}
+	.what-we-do .check-mark{
+		padding: 0px 0px 0px 30px;
+	}
+	.what-we-do .finances-info .check-mark h5 {
+	    font-size: 32px;
+	    line-height: 42px;
+	    font-weight: 600;
+	    padding: 0px 0px 10px 0px;
+	    margin: 0px;
+	}
+	.what-we-do .finances img {
+	    width: 350px;
+	}
+
+}
+
+
+@media (min-width: 481px) and (max-width: 540px) {
+	.header-section{
+		width: 100%;
+		padding: 0px 0px 242px;
+		background: url("../images/banner-bg.png") center top no-repeat;
+		background-size: cover;
+	}
+	.header-section .main-menu .bg-light .navbar-brand img{
+		mix-blend-mode: darken!important;
+		width: 50%;
+	}
+	.banner-section{
+   	 	width: 100%;
+   	 	margin: 0px 0px 20px;
+	}
+	.banner-section .banner-text{
+		width: 100%;
+		padding: 100px 0px 0px;
+	}
+	.banner-section .banner-text h3 {
+ 	   	font-size: 35px;
+   	 	font-weight: 800;
+  	  	color: #32325d;
+   	 	padding: 0px 0px 20px;
+	}
+	.banner-section .banner-text p {
+  	  	font-size: 17px;
+  	  	line-height: 28px;
+  	  	color: #000;
+   	 	padding: 0px 0px 40px;
+	}
+	.about-us{
+		width: 100%;
+		padding: 90px 0px 40px;
+	}
+	.about-us .about-text{
+		width: 100%;
+		padding: 20px 0px 0px;
+	}
+	.about-us .about-text h3 {
+	    padding: 0px 0px 10px 0px;
+	    font-size: 22px;
+	    line-height: 24px;
+	    font-weight: 900;
+	    width: 275px;
+	}
+	.about-us .about-text p {
+	    font-size: 11px;
+	    line-height: 20px;
+	    color: #525f7f;
+	    width: 275px;
+	    padding: 0px 0px 0px;
+	}
+	.about-us .visible {
+	    width: 270px;
+	    background: #fff;
+	    color: #000;
+	    margin: 185px 0px 0px;
+	    padding: 50px 0px 30px 20px;
+	    transition: box-shadow .3s;
+	    border: 1px solid #e8e7fc;
+	}
+	.about-us .visible img {
+	    width: 50%;
+	    padding: 0px 0px 20px;
+	    text-align: center;
+	}
+	.about-us .visible h4 {
+	    padding: 10px 0px;
+	    font-size: 26px;
+	    font-weight: 900;
+	}
+	.about-us .visible p {
+	    font-size: 10px;
+	    line-height: 20px;
+	    color: #525f7f;
+	    padding: 0px 0px 0px;
+	    margin: 0px;
+	}
+	.feature-section {
+	    width: 100%;
+	    padding: 200px 0px;
+	    margin: 0px 0px 540px;
+	}
+	.feature-section .box-3 .visible {
+	    width: 270px;
+	    background: #fff;
+	    color: #000;
+	    margin: 60px 0px 0px;
+	    padding: 50px 0px 30px 20px;
+	    transition: box-shadow .3s;
+	    border: 1px solid #e8e7fc;
+	}
+	.feature-section .box-4 .visible {
+	    width: 270px;
+	    background: #fff;
+	    color: #000;
+	    margin: 450px 0px 0px;
+	    padding: 50px 0px 30px 20px;
+	    transition: box-shadow .3s;
+	    border: 1px solid #e8e7fc;
+	}
+	.feature-section .visible img{
+		width: 50%;
+	    padding: 0px 0px 20px;
+	    text-align: center;
+	}
+	.feature-section .visible h4 {
+	    padding: 10px 0px;
+	    font-size: 26px;
+	    font-weight: 900;
+	}
+	.feature-section .visible p {
+	    font-size: 10px;
+	    line-height: 20px;
+	    color: #525f7f;
+	    padding: 0px 0px 0px;
+	    margin: 0px;
+	}
+	.services{
+		width: 100%;
+		padding: 80px 0px;
+		margin: 230px 0px 0px;
+		background: url("../images/service-bg.png") center bottom no-repeat;
+		background-size: cover;
+	}
+	.services .text-center h3 {
+	    padding: 10px 0px 20px;
+	    width: 300px;
+	    font-size: 18px;
+	    line-height: 20px;
+	    font-weight: 900;
+	    animation: abcd 18s infinite;
+	}
+	@keyframes abcd{
+		0%{margin-left: 50px}
+		10%{margin-left: 00px}
+		20%{margin-right: 50px}
+		30%{margin-right: 00px}
+		40%{margin-left: 50px}
+		50%{margin-left: 00px}
+		60%{margin-right: 50px}
+		70%{margin-right: 00px}
+		80%{margin-left: 50px}
+		90%{margin-left: 00px}
+		100%{margin-right: 50px}
+	}
+	.services .text-center p {
+	    font-size: 13px;
+	    line-height: 25px;
+	    text-align: center;
+	    color: #525f7f;
+	    padding: 0px 0px 0px;
+	}
+	.services .box{
+		cursor: pointer;
+		/*border: 1px solid #e8e7fc;*/
+		margin: 0px 0px;
+	}
+	.what-we-do{
+		width: 100%;
+		padding: 0px 0px;
+	}
+	.what-we-do .safety{
+		padding: 0px 0px 20px 0px;
+
+	}
+	.what-we-do .safety-info h3 {
+	    font-size: 32px;
+	    line-height: 38px;
+	    text-align: center;
+	    font-weight: 800;
+	    color: #32325d;
+	    padding: 0px 0px 20px;
+	}
+	.what-we-do .safety-info p {
+	    font-size: 16px;
+	    line-height: 26px;
+	    text-align: center;
+	    color: #525f7f;
+	    padding: 0px 0px 20px;
+	    margin: 0px;
+	}
+	.what-we-do .safety-info .drive-ride{
+		padding: 0px 0px 0px 20px;
+	}
+	.what-we-do .safety-info .drive-ride ul .text{
+		margin: 0px 120px 0px 0px;
+	}
+	.what-we-do .safety-info .drive-ride ul span h5 {
+	    font-size: 32px;
+	    line-height: 42px;
+	    padding: 0px 0px 10px 0px;
+	}
+	.what-we-do .safety-info .drive-ride ul span p {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.what-we-do .move-info h3 {
+	    font-size: 25px;
+	    line-height: 33px;
+	    text-align: center;
+	    color: #32325d;
+	    padding: 20px 0px 20px;
+	    width: 290px;
+	}
+	.what-we-do .move-info p {
+	    font-size: 20px;
+	    width: 290px;
+	    line-height: 27px;
+	    text-align: center;
+	    color: #525f7f;
+	    padding: 0px 0px 20px;
+	    margin: 0px;
+	}
+	.what-we-do .move {
+	    padding: 80px 0px 0px 0px;
+	}
+	.what-we-do .finances {
+	    /* padding: 80px 0px 20px 0px; */
+	    margin: 0px;
+	}
+	.what-we-do .finances-info {
+	    padding: 40px 0px 0px 0px;
+	}
+	.what-we-do .finances-info h3 {
+	    font-size: 35px;
+	    text-align: center;
+	    font-weight: 800;
+	    color: #32325d;
+	    padding: 0px 0px 20px;
+	    margin: 0px;
+	}
+	.what-we-do .finances-info p {
+	    font-size: 16px;
+	    width: 290px;
+	    text-align: initial;
+	    line-height: 20px;
+	    color: #525f7f;
+	    padding: 0px 0px 60px 40px;
+	    margin: 0px 0px 0px;
+	}
+	.what-we-do .check-mark{
+		padding: 0px 0px 0px 30px;
+	}
+	.what-we-do .finances-info .check-mark h5 {
+	    font-size: 32px;
+	    line-height: 42px;
+	    font-weight: 600;
+	    padding: 0px 0px 10px 0px;
+	    margin: 0px;
+	}
+	.what-we-do .finances img {
+	    width: 350px;
+	}
+}
+
+
+@media (min-width: 992px) {
+
+}
